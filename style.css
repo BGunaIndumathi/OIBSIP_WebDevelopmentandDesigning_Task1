@@ -1,0 +1,148 @@
+*{
+    margin: 3px 3px;
+    padding: 3px 3px;
+    background-color: rgb(199, 240, 127);
+    box-sizing: border-box;
+    text-align:center;
+}
+section {
+  background-image: url('back.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+  width:100%;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    color: #187a0b;
+    background-color: #3b982f;
+
+}
+.side {
+    display: flex;
+    position: relative;
+    text-align: right;
+    min-width: none;
+    list-style: none;
+}
+.navbar {   
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.navbar li {
+    display: flex;
+    list-style: none;
+    margin-top: 30px ;
+    margin-left: 12px;
+    margin-right:12px ;
+    color: blue;
+    cursor: pointer;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    font-size: 20px;
+}
+li:hover{
+    color:rgb(19, 179, 46);
+    background-color:rgba(81, 221, 21, 0.808);
+    border-radius: 10px;
+}
+.bg-color {
+    align-items: center;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    align-items: center;
+    text-align: center;
+}
+hr{
+    color: #3b982f;
+    font-weight: 500;
+}
+.fonct{
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: flex;
+}
+.image{
+    border: #3b982f;
+    border-radius: 30px;
+    border-style: dotted;
+    display: flex;
+}
+img:hover{
+    border-style: dashed;
+    border-color:rgb(107, 177, 37);
+    border-style:double;
+    border-top-color: limegreen;
+    border-radius: 60px;
+}
+#home{
+    height:650px;
+}
+.wrapper{
+    width:70%;
+    height:70vh;
+    border:1px saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    margin:0 auto;
+    position:relative;
+    top:50px;
+}
+.slider{
+    margin-right: 10px;
+    height:100%;
+    width:10%;
+    border-radius: 60px;
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+    transition: all ease-in-out 400ms;
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.slider.active{
+    width:50%;
+    border-radius: 50%;
+    animation: move-down 1.5s ease-in infinite alternate-reverse;
+}
+@keyframes move-down{
+    from{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(0);
+    }
+
+}
+.pic-1{
+    background-image: url('../LANDING_PAGE/paddy.jpg');
+
+}
+.pic-2{
+    background-image: url('../LANDING_PAGE/wheat.jpg');
+
+}
+.pic-3{
+    background-image: url('../LANDING_PAGE/jowar.jpg');
+
+}
+.pic-4{
+    background-image: url('../LANDING_PAGE/corn.jpg');
+}
+.pic-5{
+    background-image: url('../LANDING_PAGE/millet.jpg');
+}
