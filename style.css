@@ -129,20 +129,20 @@ img:hover{
 
 }
 .pic-1{
-    background-image: url('../paddy.jpg');
+    background-image: url('paddy.jpg');
 
 }
 .pic-2{
-    background-image: url('../wheat.jpg');
+    background-image: url('wheat.jpg');
 
 }
 .pic-3{
-    background-image: url('../jowar.jpg');
+    background-image: url('jowar.jpg');
 
 }
 .pic-4{
-    background-image: url('../corn.jpg');
+    background-image: url('corn.jpg');
 }
 .pic-5{
-    background-image: url('../millet.jpg');
+    background-image: url('millet.jpg');
 }
